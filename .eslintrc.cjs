@@ -58,7 +58,14 @@ module.exports = {
     'no-nested-ternary': 'off',
     'max-classes-per-file': 'off',
     "quotes": [2, "single", { "avoidEscape": true }],
-
+    "vue/max-attributes-per-line": ["error", {
+      "singleline": {
+        "max": 1
+      },
+      "multiline": {
+        "max": 1
+      }
+    }],
     'import/first': 'off',
     'import/named': 'error',
     'import/namespace': 'error',

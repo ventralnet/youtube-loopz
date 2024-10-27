@@ -66,6 +66,7 @@ module.exports = {
         "max": 1
       }
     }],
+    'no-console': 'off',
     'import/first': 'off',
     'import/named': 'error',
     'import/namespace': 'error',
